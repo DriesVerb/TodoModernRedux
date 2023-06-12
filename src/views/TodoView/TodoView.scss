@@ -1,0 +1,23 @@
+.todoViewContainer {
+  display: grid;
+  grid-template-areas:
+    "banner banner banner"
+    "button form list";
+  grid-template-columns: max-content, 1fr, 2fr;
+  column-gap: 24px;
+  row-gap: 24px;
+  padding: 24px;
+
+  .list {
+    grid-area: list;
+    padding: 12px;
+    width: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.banner {
+  text-align: left;
+  grid-area: banner;
+}

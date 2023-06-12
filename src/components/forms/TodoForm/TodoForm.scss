@@ -1,0 +1,12 @@
+.todoFormContainer {
+  grid-area: "form";
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  .buttons {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+  }
+}

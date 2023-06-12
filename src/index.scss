@@ -1,0 +1,28 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+// base
+@import "./styles/reset.scss";
+
+// components
+@import "./components/forms/LoginForm/LoginForm.scss";
+@import "./components/forms/TodoForm/TodoForm.scss";
+@import "./components/cards/TodoCard/TodoCard.scss";
+
+// views
+@import "./views/TodoView/TodoView.scss";
+@import "./views/auth/LoginView/LoginView.scss";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
